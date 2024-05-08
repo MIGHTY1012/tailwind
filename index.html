@@ -1,0 +1,48 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+</head>
+<body>
+    <style>
+/*repeating gradient*/
+section:first-of-type{
+    height: 300px;
+    background-image: repeating-linear-gradient(45deg, red 15%, green 18%, white 20%);
+}
+section:last-of-type{
+    height: 300px;
+    background-image: repeating-radial-gradient( red 5%,green 8%);
+}
+section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: transparent;
+    height: 400px;
+background-image: conic-gradient(violet 15%, crimson 15%,crimson 30%, purple 30%,purple 45%,tomato 45%, tomato 65%, moccasin 65%,moccasin 80%, cyan 80%);
+background-clip: text;
+}
+section:nth-child(4){
+    height: 600px;
+    width: 90%;
+    background-size: cover;
+    background-image: url(./walntt.jpg);
+
+}
+    </style>
+    <section></section>
+    <section>
+        <h2>univelcity</h2>
+        <h2>Yaba lagos</h2>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+</body>
+</html></html>
