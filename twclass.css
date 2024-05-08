@@ -3,8 +3,6 @@ main{
     gap: 30px 10px;
     grid-template-rows: repeat(5,150px);
     grid-template-columns: repeat(3,1fr);
-
-
 }
 section{
     background-color: blue;
